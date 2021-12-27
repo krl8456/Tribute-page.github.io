@@ -1,0 +1,58 @@
+:root {
+    --font-size: 14px;
+    --header-font-size: 40px;
+}
+body, html, h1, h2, h3, h4 {
+    margin: 0;
+}
+html, body, #main, figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+body {
+    background-color: rgb(218, 216, 216);
+    font-size: var(--font-size);
+    font-family: sans-serif;
+}
+header {
+    text-align: center;
+    margin-block: 3.5em;
+}
+#title {
+    font-size: var(--header-font-size);
+}
+figure {
+    margin: 0 5em;
+    width: 70em;
+    background-color: white;
+}
+#tribute-info {
+    max-width: 50em;
+}
+#image {
+    max-width: 60em;
+    max-height: auto;
+}
+#img-caption {
+    margin-block: 1.5em;
+}
+h2 {
+    margin-block: 2em;
+}
+li {
+    margin-bottom: 1em;
+}
+.date {
+    font-weight: 700;
+}
+i {
+    text-align: justify;
+}
+.signature {
+    margin-top: 2em;
+}
+.end-message {
+    font-weight: 700;
+}
